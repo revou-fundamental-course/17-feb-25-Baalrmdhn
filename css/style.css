@@ -1,40 +1,46 @@
-.main-header {
-    display:flex;
-    justify-content: space-between;
-
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    text-align: center;
 }
 
-.logo-company{
-    border: 1px solid black;
-                height: 50 px;
-                width: 100%;
-                background-image: https://www.bing.com/imag
+header {
+    background: #f8f9fa;
+    padding: 20px;
 }
 
-nav>a{
-    text-decoration: none;
-    color: black;
-    padding: 8px;
-    border: 1px solid;
-    border-radius: 4px;
-} 
-
-.no-bordee-radius{
-    border-radius: 0px;
+nav ul {
+    list-style: none;
+    padding: 0;
 }
 
-.no-border-radius-right{
-    border-top-right-radius: 0px 4px 4px 0px;
+nav ul li {
+    display: inline;
+    margin: 0 10px;
 }
 
-.no-border-radius-left{
-    border-top-left-radius: 4px 0px 0px 4px;
+.testimonial {
+    margin: 20px auto;
+    width: 50%;
 }
 
-.main-content{
-    display: flex;
+.contact-form {
+    background: #e9ecef;
+    padding: 20px;
+    width: 40%;
+    margin: auto;
 }
 
-.main-container{
-    
+input, select, button {
+    display: block;
+    width: 100%;
+    margin: 10px 0;
+    padding: 10px;
+}
+
+button {
+    background: #000;
+    color: #fff;
+    cursor: pointer;
 }
