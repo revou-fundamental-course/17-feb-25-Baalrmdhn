@@ -1,1 +1,40 @@
-/* iqbal */
+.main-header {
+    display:flex;
+    justify-content: space-between;
+
+}
+
+.logo-company{
+    border: 1px solid black;
+                height: 50 px;
+                width: 100%;
+                background-image: https://www.bing.com/imag
+}
+
+nav>a{
+    text-decoration: none;
+    color: black;
+    padding: 8px;
+    border: 1px solid;
+    border-radius: 4px;
+} 
+
+.no-bordee-radius{
+    border-radius: 0px;
+}
+
+.no-border-radius-right{
+    border-top-right-radius: 0px 4px 4px 0px;
+}
+
+.no-border-radius-left{
+    border-top-left-radius: 4px 0px 0px 4px;
+}
+
+.main-content{
+    display: flex;
+}
+
+.main-container{
+    
+}
